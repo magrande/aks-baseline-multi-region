@@ -175,3 +175,4 @@ jobs:
           az network front-door backend-pool backend add --address $APPGW_FQDN_BU0001A0042_04 --front-door-name $FRONT_DOOR_NAME --pool-name $FRONT_DOOR_BACKENDPOOL_NAME -g rg-bu0001a0042-shared --backend-host-header $APPGW_FQDN_BU0001A0042_04 --disabled false --http-port 80 --https-port 443  --priority 1 --weight 50
          
         azcliversion: 2.30.0
+
