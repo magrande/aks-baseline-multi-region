@@ -8,8 +8,8 @@ resources:
 - kured.yaml
 images:
 - name: docker.io/weaveworks/kured
-  newName: REPLACE_ME_WITH_YOUR_ACRNAME.azurecr.io/weaveworks/kured
+  newName: acraksuo3mzaa27e3pi.azurecr.io/weaveworks/kured
 - name: docker.io/fluxcd/flux
-  newName: REPLACE_ME_WITH_YOUR_ACRNAME.azurecr.io/fluxcd/flux
+  newName: acraksuo3mzaa27e3pi.azurecr.io/fluxcd/flux
 - name: docker.io/library/memcached
-  newName: REPLACE_ME_WITH_YOUR_ACRNAME.azurecr.io/library/memcached
+  newName: acraksuo3mzaa27e3pi.azurecr.io/library/memcached
